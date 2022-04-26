@@ -1,0 +1,40 @@
+body {
+    text-align: center;/*Texto alinhado : Center*/
+    height: 900px;
+}
+
+h1{
+font-size: 50px;
+}
+.Quadrado{
+text-align: center center;
+width: 100px;
+height: 100px;
+background: gold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: gold;
+display: inline-block;/*Nao ocupar o espaco da direita*/
+padding: 50px;/*Uma margim dentro do quadrado de "X" pxs*/
+font-size: 80px;
+margin: 10px;
+cursor: pointer;
+}
+
+.Vez, .Vencedor{
+font-size: 35px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.Vencedor{
+    color: green;
+}
+
+button{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+    cursor: pointer;
+    font-size: 20px;
+}
